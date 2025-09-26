@@ -7,7 +7,7 @@ import ChefSection from './components/ChefSection';
 import InstagramFeed from './components/InstagramFeed';
 import MoreRecipes from './components/MoreRecipes';
 import Footer from './components/Footer';
-import Newsletter from "./components/Newsletter.jsx";
+/*import Newsletter from "./components/Newsletter.jsx";*/
 
 
 import './App.css'; // Assume a global stylesheet for basic reset/layout
@@ -22,7 +22,7 @@ function App() {
       <ChefSection />
       <InstagramFeed />
       <MoreRecipes />
-      <Newsletter />
+      {/*<Newsletter />*/}
       <Footer />
     </div>
   );
