@@ -18,9 +18,9 @@ function App() {
       <h2 style={{ textAlign: 'center', margin: '40px 0 20px' }}>Simple and tasty recipes</h2>
       <RecipeGrid />
       <ChefSection />
-      {/* <InstagramFeed /> */}
+      <InstagramFeed />
       <MoreRecipes />
-      {/* <Newsletter /> */}
+      <Newsletter />
       <Footer />
     </div>
   );
