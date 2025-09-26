@@ -2,13 +2,15 @@
 import React from 'react';
 
 const newsletterStyle = {
+ 
   textAlign: 'center',
   padding: '60px 5%',
-  margin: '40px 0',
   backgroundColor: '#f0f0f0',
   borderRadius: '10px',
   maxWidth: '800px',
-  margin: '40px auto',
+  margin: '40px auto',   // ✅ single margin
+
+
 };
 
 const Newsletter = () => {
